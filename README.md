@@ -37,8 +37,7 @@ By examining these categories, we can gain valuable insights into the factors th
 
 Overall, our goal is to provide a comprehensive analysis of passenger satisfaction levels across different categories and provide actionable insights for airlines to improve the overall customer experience.
 
-Insights
-As for Gender  has no significant impact on satisfaction as both men and women are equally concerned about the same factors. Analysis shows that the airline has a high percentage of returning passengers, but there is still a high level of dissatisfaction among both first-time and loyal customers.
+Insights from the analysis of satisfaction ratings in different categories suggest that gender does not have a significant impact on satisfaction levels, and the airline has a high percentage of returning passengers, yet there is a high level of dissatisfaction. Passengers were dissatisfied with baggage handling, check-in, and gate location services, but satisfied with online booking and onboard services in pre-boarding services. As for in-flight services, Business class passengers were highly satisfied with spacious legroom, and age plays a significant role, with the age group of 39-60 having higher expectations and satisfaction levels. Passengers with longer flights or business travel tend to choose Business Class, leading to higher satisfaction levels, possibly due to the availability of its amenities. The airline should consider these factors in its strategies to ensure continued satisfaction and loyalty.
 
 
 ## Machine Learning
