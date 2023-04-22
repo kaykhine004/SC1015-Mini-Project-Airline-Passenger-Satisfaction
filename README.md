@@ -37,8 +37,8 @@ By examining these categories, we can gain valuable insights into the factors th
 
 Overall, our goal is to provide a comprehensive analysis of passenger satisfaction levels across different categories and provide actionable insights for airlines to improve the overall customer experience.
 
-## Insights
-    As for Gender  has no significant impact on satisfaction as both men and women are equally concerned about the same factors. Analysis shows that the airline has a high percentage of returning passengers, but there is still a high level of dissatisfaction among both first-time and loyal customers.
+Insights
+As for Gender  has no significant impact on satisfaction as both men and women are equally concerned about the same factors. Analysis shows that the airline has a high percentage of returning passengers, but there is still a high level of dissatisfaction among both first-time and loyal customers.
 
 
 ## Machine Learning
