@@ -1,10 +1,6 @@
 # SC1015-Mini-Project-Airline-Passenger-Satisfaction
 
-Welcome to our project on analyzing customer satisfaction data for an airline company! We are a team of three from Nanyang Technological University - Yaxin, Nivedha, and Chaw Kay. The dataset for this project is obtained from Kaggle and contains the data sourced from a survey conducted by airlines on the satisfaction level of passengers/customers based on various factors. With 25 columns such as Age, Gender, Travel class, Arrival and Departure delays, and features that influence customer satisfaction level such as On-board service, Cleanliness, Seat comfort, and Baggage handling, we aim to identify critical factors that impact passenger satisfaction with airline services and provide insights to improve customer service and maintain customer loyalty.
-
-
-
-
+Welcome to our customer satisfaction analysis project for an airline company! We are a team of three from Nanyang Technological University - Yaxin, Nivedha, and Chaw Kay. Our project aims to identify the critical factors that influence passenger satisfaction and provide actionable insights for the aviation industry in the post-pandemic era. The dataset for this project is obtained from Kaggle and contains the data sourced from a survey conducted by airlines on the satisfaction level of passengers/customers based on various factors. Our analysis will focus on the provided dataset which includes ratings for each service, to identify the factors that impact passenger satisfaction and provide insights to improve customer service and maintain customer loyalty.
 
 
 ## Background
