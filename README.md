@@ -42,6 +42,26 @@ Insights from the analysis of satisfaction ratings in different categories sugge
 
 ## Machine Learning
 
+To find the best hyperparameter
+
+
+## Conclusion
+
+In conclusion, ------ varibles have high impacts ...
+
+
+Through this project, our group has gained valuable knowledge and skills. In the EDA phase, we learned how to use the FacetGrid function for efficient visualization and comparison of multiple subsets of data within a single plot. In the ML phase, we applied the Chi square and wrapper methods for feature importance and utilized the Lgbmclassifier to produce more accurate machine learning outcomes. Furthermore, we conducted research and implemented the Lazypredict tool to calculate accuracy before selecting the best model for each group, resulting in improved predictive performance.
+
+Using our ML outcome, ....
+
+
+
+## Acknowledgements
+We want to thank our  lab teaching assistant Prof Manoj for continuous support and help throughout the project.
+
+## Reference
+
+
 
 
 
