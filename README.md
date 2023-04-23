@@ -41,14 +41,21 @@ The analysis of different machine learning models revealed that online boarding 
 The analysis also revealed that passengers aged between 26 to 41 years consider online boarding and WiFi services as crucial factors for their flight satisfaction. However, the importance of other features varied across different age groups. For example, passengers aged between 42-57 years consider class, leg room, WiFi, online boarding, and flight distance important. In contrast, passengers aged between 68-76 years consider WiFi, leg room, and flight distance as crucial factors.
 
 Based on the analysis, the following features were identified as important for each age group:
-
+| -------- | -------- | 
 | Group_0_9 | Online Boarding, Wifi, (Flight distance) |
+
 | Group_10_25 | Online Boarding, Wifi,(Flight distance and Arrival delay) |
+
 | Group_26-41 | Online Boarding, Wifi,(Flight distance) |
+
 | Group_42_57 | Class, Leg room, Wifi, Online boarding (Flight distance) |
+
 | Group_58_67 | Type of travel, Wifi, Online boarding (Flight distance) |
+
 | Group_68_76 | Wifi, Leg room, Flight distance |
+
 | Group_77_94 | Leg room, Wifi, Flight distance |
+
 
 
 ## Conclusion
