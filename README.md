@@ -9,7 +9,7 @@ Passenger satisfaction is a critical factor for the success of any airline. Sati
 
 ## The Research Question
 
-Our goal is to provide suggestions to the airline company on which categories of services are mainly affecting customer satisfaction and which areas need improvement to attract new customers and retain loyal ones. Through our analysis, we aim to identify significant variables, patterns, and trends that could impact customer service in the aviation industry. Our approach involves creating a classification model from the flight satisfaction survey data to answer the following research question:
+Our primary objective is to offer recommendations to the airline company regarding the key service categories that have the greatest impact on customer satisfaction, as well as areas that require improvement in order to attract new customers and retain loyal ones. Our analysis aims to identify significant variables, patterns, and trends that could affect customer service in the aviation sector. To achieve this, we will construct a classification model utilizing data from the flight satisfaction survey, with the intention of answering the following research inquiry:
 
 "What patterns, trends, and significant variables can be identified from analyzing the airline passenger satisfaction dataset that impact passenger satisfaction levels? Specifically, what are the critical factors that have a significant impact on passenger satisfaction with airline services to improve customer service and maintain customer loyalty in the aviation industry?"
 
@@ -20,7 +20,7 @@ Our goal is to provide suggestions to the airline company on which categories of
 | Machine Learning  | Decision tree, Random forest, Grid-search, LGBM Classifier by using LazyPredict  |
 
 
-## Data Cleaning 
+## Data Preparation
 Data preparation is a crucial step before conducting exploratory data analysis (EDA) to ensure that the data is clean and relevant. The process involves removing unnecessary columns such as the "ID" column, handling missing values, addressing outliers and checking the balance of the dataset to avoid bias. Upon examining the outliers in the arrival and departure delays, we found it surprising that this variable was not a top predictor for passenger satisfaction levels. So, we decided to look into deeper and analyze whether passengers were still satisfied despite experiencing a delay or if delays had a negative impact on their satisfaction levels.
 
 In addition, we replaced the 0 rating values with the mean rating value to handle the situation where '0' means the rating is not applicable. Lastly, to gain insights into different generations, the dataset is splitted according to different generational groups.
@@ -36,12 +36,24 @@ After analyzing satisfaction ratings across various categories, our findings sug
 
 ## Machine Learning
 
-To find the best hyperparameter
+The analysis of different machine learning models revealed that online boarding and WiFi services significantly influence flight satisfaction. For the decision tree model, online boarding and WiFi were identified as the most important variables, while for the LGBMclassifier model, flight distance and WiFi were the significant factors. Similarly, the Random Forest model also identified online boarding and WiFi as the most important features.
+
+The analysis also revealed that passengers aged between 26 to 41 years consider online boarding and WiFi services as crucial factors for their flight satisfaction. However, the importance of other features varied across different age groups. For example, passengers aged between 42-57 years consider class, leg room, WiFi, online boarding, and flight distance important. In contrast, passengers aged between 68-76 years consider WiFi, leg room, and flight distance as crucial factors.
+
+Based on the analysis, the following features were identified as important for each age group:
+
+|Group_0_9| Online Boarding, Wifi, (Flight distance)|
+|Group_10_25| Online Boarding, Wifi,(Flight distance and Arrival delay)|
+|Group_26-41| Online Boarding, Wifi,(Flight distance)|
+|Group_42_57| Class, Leg room, Wifi, Online boarding (Flight distance)|
+|Group_58_67| Type of travel, Wifi, Online boarding (Flight distance)|
+|Group_68_76| Wifi, Leg room, Flight distance|
+|Group_77_94| Leg room, Wifi, Flight distance|
 
 
 ## Conclusion
 
-In conclusion, ------ varibles have high impacts ...
+In conclusion, airlines can improve flight satisfaction by focusing on providing efficient online boarding and WiFi services, especially for passengers aged between 26 to 41 years. Additionally, airlines should also consider other factors such as flight distance, class, leg room, and arrival delay to enhance the flight experience for different age groups.
 
 
 Through this project, our group has gained valuable knowledge and skills. In the EDA phase, we learned how to use the FacetGrid function for efficient visualization and comparison of multiple subsets of data within a single plot. In the ML phase, we applied the Chi square and wrapper methods for feature importance and utilized the Lgbmclassifier to produce more accurate machine learning outcomes. Furthermore, we conducted research and implemented the Lazypredict tool to calculate accuracy before selecting the best model for each group, resulting in improved predictive performance.
