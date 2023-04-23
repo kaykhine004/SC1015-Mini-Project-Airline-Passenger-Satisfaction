@@ -41,20 +41,16 @@ The analysis of different machine learning models revealed that online boarding 
 The analysis also revealed that passengers aged between 26 to 41 years consider online boarding and WiFi services as crucial factors for their flight satisfaction. However, the importance of other features varied across different age groups. For example, passengers aged between 42-57 years consider class, leg room, WiFi, online boarding, and flight distance important. In contrast, passengers aged between 68-76 years consider WiFi, leg room, and flight distance as crucial factors.
 
 Based on the analysis, the following features were identified as important for each age group:
-| -------- | -------- | 
-| Group_0_9 | Online Boarding, Wifi, (Flight distance) |
 
-| Group_10_25 | Online Boarding, Wifi,(Flight distance and Arrival delay) |
-
-| Group_26-41 | Online Boarding, Wifi,(Flight distance) |
-
-| Group_42_57 | Class, Leg room, Wifi, Online boarding (Flight distance) |
-
-| Group_58_67 | Type of travel, Wifi, Online boarding (Flight distance) |
-
-| Group_68_76 | Wifi, Leg room, Flight distance |
-
-| Group_77_94 | Leg room, Wifi, Flight distance |
+| Generation | Key Services |
+| -------- | -------- |
+| Gen Z | Online Boarding, Wifi, (Flight distance) |
+| Millennials | Online Boarding, Wifi,(Flight distance and Arrival delay) |
+| Gen X| Online Boarding, Wifi,(Flight distance) |
+| Boomer I | Class, Leg room, Wifi, Online boarding (Flight distance) |
+| Boomer II | Type of travel, Wifi, Online boarding (Flight distance) |
+| Post War | Wifi, Leg room, Flight distance |
+| WWII | Leg room, Wifi, Flight distance |
 
 
 
@@ -64,9 +60,6 @@ In conclusion, airlines can improve flight satisfaction by focusing on providing
 
 
 Through this project, our group has gained valuable knowledge and skills. In the EDA phase, we learned how to use the FacetGrid function for efficient visualization and comparison of multiple subsets of data within a single plot. In the ML phase, we applied the Chi square and wrapper methods for feature importance and utilized the Lgbmclassifier to produce more accurate machine learning outcomes. Furthermore, we conducted research and implemented the Lazypredict tool to calculate accuracy before selecting the best model for each group, resulting in improved predictive performance.
-
-Using our ML outcome, ....
-
 
 
 ## Acknowledgements
