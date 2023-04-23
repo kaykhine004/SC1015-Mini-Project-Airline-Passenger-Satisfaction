@@ -42,13 +42,13 @@ The analysis also revealed that passengers aged between 26 to 41 years consider 
 
 Based on the analysis, the following features were identified as important for each age group:
 
-|Group_0_9| Online Boarding, Wifi, (Flight distance)|
-|Group_10_25| Online Boarding, Wifi,(Flight distance and Arrival delay)|
-|Group_26-41| Online Boarding, Wifi,(Flight distance)|
-|Group_42_57| Class, Leg room, Wifi, Online boarding (Flight distance)|
-|Group_58_67| Type of travel, Wifi, Online boarding (Flight distance)|
-|Group_68_76| Wifi, Leg room, Flight distance|
-|Group_77_94| Leg room, Wifi, Flight distance|
+| Group_0_9 | Online Boarding, Wifi, (Flight distance) |
+| Group_10_25 | Online Boarding, Wifi,(Flight distance and Arrival delay) |
+| Group_26-41 | Online Boarding, Wifi,(Flight distance) |
+| Group_42_57 | Class, Leg room, Wifi, Online boarding (Flight distance) |
+| Group_58_67 | Type of travel, Wifi, Online boarding (Flight distance) |
+| Group_68_76 | Wifi, Leg room, Flight distance |
+| Group_77_94 | Leg room, Wifi, Flight distance |
 
 
 ## Conclusion
