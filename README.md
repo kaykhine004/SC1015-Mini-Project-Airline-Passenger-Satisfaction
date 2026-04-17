@@ -2,6 +2,7 @@
 
 Welcome to our customer satisfaction analysis project for an airline company! We are a team of three from Nanyang Technological University - Yaxin, Nivedha, and Chaw Kay. Our project aims to identify the critical factors that influence passenger satisfaction and provide actionable insights for the aviation industry in the post-pandemic era. The dataset for this project is obtained from Kaggle and contains the data sourced from a survey conducted by airlines on the satisfaction level of passengers/customers based on various factors. Our analysis will focus on the provided dataset which includes ratings for each service, to identify the factors that impact passenger satisfaction and provide insights to improve customer service and maintain customer loyalty.
 
+Youtube link : https://youtu.be/MLAsIvCMji8?feature=shared
 
 ## Background
 
